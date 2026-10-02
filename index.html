@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRIDIRON AI | Fantasy Football Analysis</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b1220;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 850px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 7px 14px;
+      margin-bottom: 24px;
+      border: 1px solid #334155;
+      border-radius: 999px;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    h1 {
+      font-size: 58px;
+      letter-spacing: 3px;
+      margin-bottom: 14px;
+    }
+
+    .subtitle {
+      color: #94a3b8;
+      font-size: 21px;
+      line-height: 1.6;
+      max-width: 650px;
+      margin: 0 auto 45px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      text-align: left;
+      margin-bottom: 45px;
+    }
+
+    .feature {
+      background: #111c2e;
+      border: 1px solid #243247;
+      border-radius: 12px;
+      padding: 22px;
+    }
+
+    .feature h2 {
+      font-size: 17px;
+      margin-bottom: 8px;
+    }
+
+    .feature p {
+      color: #94a3b8;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    footer {
+      color: #64748b;
+      font-size: 13px;
+      line-height: 1.8;
+    }
+
+    footer a {
+      color: #94a3b8;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 40px;
+      }
+
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <div class="badge">Currently in private development</div>
+
+    <h1>GRIDIRON AI</h1>
+
+    <p class="subtitle">
+      AI-powered fantasy football analysis designed to help managers
+      make informed decisions using their Yahoo Fantasy leagues.
+    </p>
+
+    <section class="features">
+
+      <div class="feature">
+        <h2>Waiver Wire Analysis</h2>
+        <p>
+          Analyze available players and identify potential roster
+          improvements based on league and roster context.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h2>Lineup Recommendations</h2>
+        <p>
+          Compare players, projections and matchups to assist with
+          weekly start/sit decisions.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h2>Player Comparisons</h2>
+        <p>
+          Evaluate fantasy players using statistics, projections and
+          league-specific information.
+        </p>
+      </div>
+
+      <div class="feature">
+        <h2>Matchup Analysis</h2>
+        <p>
+          Understand weekly fantasy matchups and how individual roster
+          decisions may affect your team.
+        </p>
+      </div>
+
+    </section>
+
+    <footer>
+      GRIDIRON AI is an independent personal development project and is
+      not affiliated with or endorsed by Yahoo.<br>
+      Fantasy data provided by
+      <a href="https://football.fantasysports.yahoo.com/" target="_blank">
+        Yahoo Fantasy
+      </a>.
+    </footer>
+
+  </main>
+</body>
+</html>
